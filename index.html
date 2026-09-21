@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Umbra — Dark mode for every website in Safari</title>
+<meta name="description" content="Umbra is a Safari extension for iPhone, iPad and Mac that gives every website a dark mode. Setup help, support and privacy policy.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141118">
+<link rel="canonical" href="https://soniczhangss.github.io/umbra-site/">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/icon-64.png">
+<link rel="apple-touch-icon" href="assets/icon-256.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Umbra">
+<meta property="og:title" content="Umbra — Dark mode for every website">
+<meta property="og:description" content="A Safari extension for iPhone, iPad and Mac. Setup help, support and privacy policy.">
+<meta property="og:url" content="https://soniczhangss.github.io/umbra-site/">
+<meta property="og:image" content="https://soniczhangss.github.io/umbra-site/assets/icon-512.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <img src="assets/icon-128.png" alt="" width="36" height="36">
+      <span>Umbra</span>
+    </a>
+    <nav class="nav" aria-label="On this page">
+      <a href="#setup">Set up</a>
+      <a href="#help">Help</a>
+      <a href="#privacy">Privacy</a>
+      <a class="nav-wide" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Safari extension for iPhone, iPad and Mac</p>
+        <h1 id="hero-title">Dark mode for <em>every</em> website.</h1>
+        <p class="lede">Umbra gives every website in Safari a dark mode. Pages open dark instead of flashing white first, and sites that already have a dark mode keep their own.</p>
+        <div class="actions">
+          <a class="button button-primary" href="#setup">Set up Umbra<svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+          <a class="button button-secondary" href="#help">Get help</a>
+        </div>
+      </div>
+
+      <figure class="compare">
+        <div class="compare-frame">
+          <svg viewBox="0 0 500 440" width="500" height="440" role="img" aria-label="A web page shown half in its original light colours and half in Umbra’s dark Classic theme.">
+            <defs>
+              <clipPath id="compare-original"><rect width="250" height="440"/></clipPath>
+              <clipPath id="compare-photo"><rect x="36" y="199" width="428" height="120" rx="10"/></clipPath>
+            </defs>
+            <!-- With Umbra, in the Classic theme -->
+            <g>
+              <rect width="500" height="440" fill="#1a1a1c"/>
+              <rect width="500" height="52" fill="#202023"/>
+              <rect y="51" width="500" height="1" fill="#2b2b2f"/>
+              <rect x="140" y="11" width="220" height="30" rx="15" fill="#2b2b2f"/>
+              <text x="250" y="30" text-anchor="middle" font-size="12" font-family="system-ui, -apple-system, sans-serif" fill="#a3a2a8">example.com</text>
+              <rect x="36" y="82" width="64" height="8" rx="4" fill="#e0826c"/>
+              <rect x="36" y="106" width="396" height="16" rx="5" fill="#e8e6e3"/>
+              <rect x="36" y="134" width="282" height="16" rx="5" fill="#e8e6e3"/>
+              <rect x="36" y="168" width="150" height="7" rx="3.5" fill="#6e6d74"/>
+              <g clip-path="url(#compare-photo)">
+                <rect x="36" y="199" width="428" height="120" fill="#2c2b31"/>
+                <circle cx="385" cy="236" r="15" fill="#4a4852"/>
+                <ellipse cx="146" cy="329" rx="150" ry="70" fill="#37363d"/>
+                <ellipse cx="364" cy="334" rx="160" ry="75" fill="#403f47"/>
+              </g>
+              <rect x="36" y="343" width="428" height="7" rx="3.5" fill="#8c8b92"/>
+              <rect x="36" y="362" width="410" height="7" rx="3.5" fill="#8c8b92"/>
+              <rect x="36" y="381" width="428" height="7" rx="3.5" fill="#8c8b92"/>
+              <rect x="36" y="400" width="256" height="7" rx="3.5" fill="#8c8b92"/>
+            </g>
+            <!-- The original, in its own light colours -->
+            <g clip-path="url(#compare-original)">
+              <rect width="500" height="440" fill="#f8f6f2"/>
+              <rect width="500" height="52" fill="#efece6"/>
+              <rect y="51" width="500" height="1" fill="#e2ded6"/>
+              <rect x="140" y="11" width="220" height="30" rx="15" fill="#e2ded6"/>
+              <text x="250" y="30" text-anchor="middle" font-size="12" font-family="system-ui, -apple-system, sans-serif" fill="#6b6672">example.com</text>
+              <rect x="36" y="82" width="64" height="8" rx="4" fill="#c8553d"/>
+              <rect x="36" y="106" width="396" height="16" rx="5" fill="#1f1d24"/>
+              <rect x="36" y="134" width="282" height="16" rx="5" fill="#1f1d24"/>
+              <rect x="36" y="168" width="150" height="7" rx="3.5" fill="#aaa5ad"/>
+              <g clip-path="url(#compare-photo)">
+                <rect x="36" y="199" width="428" height="120" fill="#dcd5c8"/>
+                <circle cx="385" cy="236" r="15" fill="#f3eee4"/>
+                <ellipse cx="146" cy="329" rx="150" ry="70" fill="#c7bfb0"/>
+                <ellipse cx="364" cy="334" rx="160" ry="75" fill="#bdb4a4"/>
+              </g>
+              <rect x="36" y="343" width="428" height="7" rx="3.5" fill="#8f8a94"/>
+              <rect x="36" y="362" width="410" height="7" rx="3.5" fill="#8f8a94"/>
+              <rect x="36" y="381" width="428" height="7" rx="3.5" fill="#8f8a94"/>
+              <rect x="36" y="400" width="256" height="7" rx="3.5" fill="#8f8a94"/>
+            </g>
+            <rect x="249" width="2" height="440" fill="#b79ce0"/>
+          </svg>
+        </div>
+        <figcaption><span>Original</span><span>With Umbra</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="themes" aria-labelledby="themes-label">
+    <div class="wrap">
+      <div class="themes-copy">
+        <p class="eyebrow" id="themes-label">25 themes</p>
+        <p>Pick one, then fine-tune brightness and contrast.</p>
+      </div>
+      <ul class="swatches" aria-labelledby="themes-label">
+        <li title="Classic" style="--fg: #e8e6e3; --bg: #1a1a1c"><span class="sr-only">Classic</span></li>
+        <li title="Charcoal" style="--fg: #e4e4e4; --bg: #202022"><span class="sr-only">Charcoal</span></li>
+        <li title="Graphite" style="--fg: #dcdce2; --bg: #26262a"><span class="sr-only">Graphite</span></li>
+        <li title="Ink" style="--fg: #e6e6e8; --bg: #0d0d0f"><span class="sr-only">Ink</span></li>
+        <li title="High Contrast" style="--fg: #ffffff; --bg: #050506"><span class="sr-only">High Contrast</span></li>
+        <li title="Dim" style="--fg: #cfcfd4; --bg: #2a2a2e"><span class="sr-only">Dim</span></li>
+        <li title="Midnight" style="--fg: #dfe3ec; --bg: #11131a"><span class="sr-only">Midnight</span></li>
+        <li title="Slate" style="--fg: #dde2ea; --bg: #1c2128"><span class="sr-only">Slate</span></li>
+        <li title="Steel" style="--fg: #d9e0e4; --bg: #191d20"><span class="sr-only">Steel</span></li>
+        <li title="Ocean" style="--fg: #d2e2ec; --bg: #0f1c26"><span class="sr-only">Ocean</span></li>
+        <li title="Nord" style="--fg: #d8dee9; --bg: #2e3440"><span class="sr-only">Nord</span></li>
+        <li title="Solarized" style="--fg: #93a1a1; --bg: #002b36"><span class="sr-only">Solarized</span></li>
+        <li title="Forest" style="--fg: #d6e4d8; --bg: #16211a"><span class="sr-only">Forest</span></li>
+        <li title="Moss" style="--fg: #dde3d4; --bg: #1b2119"><span class="sr-only">Moss</span></li>
+        <li title="Sepia" style="--fg: #e8d9c0; --bg: #241d14"><span class="sr-only">Sepia</span></li>
+        <li title="Espresso" style="--fg: #e0d2c3; --bg: #1e1712"><span class="sr-only">Espresso</span></li>
+        <li title="Cocoa" style="--fg: #e3d6cd; --bg: #1f1815"><span class="sr-only">Cocoa</span></li>
+        <li title="Amber Night" style="--fg: #ecdcb8; --bg: #1c1710"><span class="sr-only">Amber Night</span></li>
+        <li title="Gruvbox" style="--fg: #ebdbb2; --bg: #282828"><span class="sr-only">Gruvbox</span></li>
+        <li title="Plum" style="--fg: #e4d8ec; --bg: #1e1526"><span class="sr-only">Plum</span></li>
+        <li title="Aubergine" style="--fg: #e6dcee; --bg: #1a1020"><span class="sr-only">Aubergine</span></li>
+        <li title="Rose" style="--fg: #ecd9dd; --bg: #241519"><span class="sr-only">Rose</span></li>
+        <li title="Dracula" style="--fg: #f8f8f2; --bg: #282a36"><span class="sr-only">Dracula</span></li>
+        <li title="One Dark" style="--fg: #abb2bf; --bg: #282c34"><span class="sr-only">One Dark</span></li>
+        <li title="Monokai" style="--fg: #f8f8f2; --bg: #272822"><span class="sr-only">Monokai</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section features" id="features" aria-labelledby="features-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What it does</p>
+        <h2 id="features-title">Dark mode, done carefully.</h2>
+      </div>
+      <ul class="feature-grid">
+        <li class="feature">
+          <svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor"/></svg>
+          <h3>Automatic, or always</h3>
+          <p>Follows your device between Light and Dark, or keeps every site dark all day. Switch any single site on or off from Safari.</p>
+        </li>
+        <li class="feature">
+          <svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="12.41 6.75 13 2 10.57 4.92"/><polyline points="18.57 12.91 21 10 15.66 10"/><polyline points="8 8 3 14 12 14 11 22 16 16"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+          <h3>No white flash</h3>
+          <p>Pages appear dark from the start, instead of loading white and changing a moment later.</p>
+        </li>
+        <li class="feature">
+          <svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <h3>Real dark modes, respected</h3>
+          <p>When a site has a dark mode of its own, Umbra steps aside. You can still use Umbra’s theme on any site you choose.</p>
+        </li>
+        <li class="feature">
+          <svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 8 5l5 14"/><path d="M4.8 14h6.4"/><circle cx="17.5" cy="15.5" r="3.5"/><path d="M21 12v7"/></svg>
+          <h3>Text you can read</h3>
+          <p>Umbra checks text contrast as it themes a page, and fixes anything that would be hard to read.</p>
+        </li>
+        <li class="feature">
+          <svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="7" ry="7"/><circle cx="16" cy="12" r="3"/></svg>
+          <h3>Shortcuts, Siri and Focus</h3>
+          <p>Change settings from Shortcuts or Siri, switch themes with a Focus, and add Umbra to Control Center on iOS 18 and later.</p>
+        </li>
+        <li class="feature">
+          <svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          <h3>The same on every device</h3>
+          <p>Your settings sync through iCloud, so your iPhone, iPad and Mac stay in step.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-band setup" id="setup" aria-labelledby="setup-title">
+    <div class="wrap">
+      <div class="setup-head">
+        <div class="section-head">
+          <p class="eyebrow">Set up</p>
+          <h2 id="setup-title">Turn Umbra on in Safari.</h2>
+        </div>
+        <p class="setup-intro">Safari keeps new extensions switched off until you allow them. You only need to do this once on each device.</p>
+      </div>
+      <div class="setup-body">
+        <div class="device-grid">
+          <article class="device" aria-labelledby="setup-ios">
+            <div class="device-head">
+              <span class="device-icon"><svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>
+              <div class="device-title">
+                <h3 id="setup-ios">iPhone and iPad</h3>
+                <p class="device-req">iOS and iPadOS 17 or later</p>
+              </div>
+            </div>
+            <ol class="steps">
+              <li><span>Open <strong>Settings</strong>, then <strong>Apps</strong>, then <strong>Safari</strong>. On iOS 17, open <strong>Settings</strong>, then <strong>Safari</strong>.</span></li>
+              <li><span>Tap <strong>Extensions</strong>, then <strong>Umbra</strong>.</span></li>
+              <li><span>Turn <strong>Umbra</strong> on.</span></li>
+              <li><span>Set <strong>All Websites</strong> to <strong>Allow</strong>.</span></li>
+            </ol>
+          </article>
+          <article class="device" aria-labelledby="setup-mac">
+            <div class="device-head">
+              <span class="device-icon"><svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 20 6v10"/><path d="M2 16h20v1.5a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 17.5Z"/></svg></span>
+              <div class="device-title">
+                <h3 id="setup-mac">Mac</h3>
+                <p class="device-req">macOS 14 Sonoma or later</p>
+              </div>
+            </div>
+            <ol class="steps">
+              <li><span>Open <strong>Umbra</strong> and click <strong>Safari Settings…</strong>, or in Safari choose <strong>Safari › Settings</strong>, then <strong>Extensions</strong>.</span></li>
+              <li><span>Tick <strong>Umbra</strong> in the list.</span></li>
+              <li><span>Click <strong>Edit Websites…</strong> and set <strong>When visiting other websites</strong> to <strong>Allow</strong>.</span></li>
+            </ol>
+          </article>
+        </div>
+        <p class="setup-note"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span>Umbra needs access to page content to build a dark theme. Nothing about the pages you visit ever leaves your device. <a href="#privacy">Read the privacy policy</a>.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section help" id="help" aria-labelledby="help-title">
+    <div class="wrap split">
+      <div class="split-aside">
+        <p class="eyebrow">Help</p>
+        <h2 id="help-title">Common questions</h2>
+        <p class="aside-note">Not answered here? <a href="#contact">Contact support</a>.</p>
+      </div>
+      <div class="split-main faq">
+        <div class="faq-item">
+          <h3>A website isn’t turning dark.</h3>
+          <p>Open Umbra’s menu in Safari while you’re on that site, and it tells you why. Usually Umbra hasn’t been allowed on that site yet, or Dark Mode is set to Automatic while your device is in Light mode.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Umbra leaves a site with its own dark mode alone.</h3>
+          <p>That’s deliberate: <strong>Respect Built-in Dark Modes</strong> is on in the app. To use your Umbra theme on one of those sites, open Umbra’s menu there and turn on <strong>Ignore built-in dark mode</strong>.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Part of a page looks wrong.</h3>
+          <p>Try another theme, or raise Contrast. To stop Umbra on that site, set it to <strong>Off</strong> in Umbra’s menu, and please <a href="#contact">email us</a> the page’s address so we can look into it.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Pages stopped darkening after an update.</h3>
+          <p>Reload any tab that was open while Umbra updated. Pages you open afterwards are darkened as usual.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do my settings carry over to my other devices?</h3>
+          <p>Yes. Umbra syncs your settings through your iCloud account to your iPhone, iPad and Mac.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-band privacy" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap split">
+      <div class="split-aside">
+        <p class="eyebrow">Privacy</p>
+        <h2 id="privacy-title">Privacy Policy</h2>
+        <p class="policy-date">Last updated <time datetime="2026-09-21">21 September 2026</time></p>
+        <div class="summary">
+          <svg aria-hidden="true" focusable="false" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <p class="summary-lead">Umbra collects nothing.</p>
+          <p class="summary-label">App Store privacy label: <strong>Data Not Collected</strong></p>
+        </div>
+      </div>
+      <div class="split-main policy">
+        <div class="policy-part">
+          <h3>The short version</h3>
+          <p>Umbra collects no information about you or the websites you visit, and shares nothing with anyone. It has no accounts, analytics, advertising, tracking or crash reporting.</p>
+        </div>
+        <div class="policy-part">
+          <h3>What Umbra reads</h3>
+          <p>To darken a page, Umbra’s Safari extension reads the page’s content and styles. This happens inside Safari, on your device. What it reads is used only to build the dark version of that page, and is never stored or sent anywhere.</p>
+        </div>
+        <div class="policy-part">
+          <h3>Network requests</h3>
+          <p>Umbra has no servers, and sends nothing to its developer or anyone else. To darken some pages it has to read a stylesheet the page already uses, so it downloads that file again, from the same address and without cookies. That request goes only to the website the stylesheet came from.</p>
+        </div>
+        <div class="policy-part">
+          <h3>What Umbra stores</h3>
+          <p>Only your settings: the Dark Mode setting, your theme, brightness and contrast, and the websites you’ve given a setting of their own, such as “example.com: Off”. They’re kept on your device and, if you use iCloud, in your iCloud account so your devices stay in step. The developer can’t see them.</p>
+        </div>
+        <div class="policy-part">
+          <h3>Deleting your data</h3>
+          <p>You can remove site settings at any time in the app, and removing them there removes them from iCloud too. Deleting Umbra removes everything it stored on that device.</p>
+        </div>
+        <div class="policy-part">
+          <h3>Third parties</h3>
+          <p>Umbra contains no third-party code for analytics, advertising or tracking. iCloud sync is provided by Apple and covered by Apple’s privacy policy.</p>
+        </div>
+        <div class="policy-part">
+          <h3>Children</h3>
+          <p>Umbra collects no personal information from anyone, including children.</p>
+        </div>
+        <div class="policy-part">
+          <h3>Changes</h3>
+          <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+        </div>
+        <div class="policy-part">
+          <h3>Contact</h3>
+          <p>Umbra is made by Tiger &amp; Bunny Pty Ltd. For questions about this policy, email <a href="mailto:tigernbunny@outlook.com">tigernbunny@outlook.com</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <img src="assets/icon-256.png" alt="" width="72" height="72">
+      <h2 id="contact-title">Still stuck? Write to us.</h2>
+      <p class="contact-lead">Include the website’s address, your device, and your version of iOS, iPadOS or macOS.</p>
+      <a class="button button-primary button-mail" href="mailto:tigernbunny@outlook.com?subject=Umbra%20support"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>tigernbunny@outlook.com</a>
+      <p class="version">Umbra 1.0 · Requires iOS 17, iPadOS 17 or macOS 14 or later</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-row">
+      <div class="footer-brand">
+        <img src="assets/icon-128.png" alt="" width="28" height="28">
+        <p>© 2026 Tiger &amp; Bunny Pty Ltd</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#help">Support</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <p class="legal">Safari, iPhone, iPad and Mac are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>
+    <p class="wordmark" aria-hidden="true">Umbra</p>
+  </div>
+</footer>
+</body>
+</html>
